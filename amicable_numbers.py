@@ -32,11 +32,13 @@ def get_amicable_nums(N):
     :N: integer
     """
     amicable_nums = set()
-    for i in np.arange(1, N):
+    i = 0
+    while i < N:
+        i+=1
         prop_divs = get_proper_divisors(i)
         sum_prop_divs = np.sum(prop_divs)
         if is_amicable_num(i, sum_prop_divs) & (i != sum_prop_divs):
-            amicable_nums.add(i)
-            amicable_nums.add(sum_prop_divs)
+            amicable_nums.add((i, sum_prop_divs))
+            i = sum_prop_divs
     
     return amicable_nums
