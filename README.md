@@ -4,4 +4,6 @@ This repository will be a collection of solutions (or maybe just attempts) to di
 
 ### Puzzle Names & Descriptions:
 <ul type="square">
-	<li><b> Amicable Numbers:</b> Find all pairs of amicable numbers up to some integer N. Source: @tjpell </li> 
+	<li><b> Amicable Numbers:</b> Find all pairs of amicable numbers up to some integer N. Source: @tjpell </li>
+	<li><b> Newton-Raphson Method:</b> Find the square or cube root of a given number using an initial guess </li>
+</ul>
